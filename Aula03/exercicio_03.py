@@ -30,8 +30,11 @@ while True:
             print("O número é IMPAR")
     elif opcao == "2":
         numero = int(input("Digite um número para ver tabuada: "))
-        for i in range(1, 11):
-            print(f"{numero} x {i} = {numero * i}")
+        entrada = input("Digite um numero para ver a tabuada: ")
+        if entrada.lstrip("-").isdigit():
+            numero = int(entrada)
+            for i in range(1, 11):
+                print(f"{numero} x {i} = {numero * i}")
 
     elif opcao == "3":
         print("Saindo do programa...")

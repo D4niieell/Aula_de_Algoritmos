@@ -1,5 +1,3 @@
-""" """
-
 # Laço de repetição
 # Metodo para manipular lista
 # Lista

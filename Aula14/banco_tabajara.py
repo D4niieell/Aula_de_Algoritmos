@@ -99,9 +99,11 @@ print("================================================\n")
 import pandas as pd
 import os
 
+print("================================================")
 print("Digite as seguintes informações: ")
 print("1 > Criar conta ")
 print("2 > Acessar conta ")
+print("================================================\n")
 opcao = int(input("R: "))
 
 caminho_excel = "Aula14\Base_BANCO_TABAJARA.xlsx"
@@ -253,14 +255,4 @@ if opcao == 2:
         print("================================================")
         print(f"   Tipo conta: {tipo_conta}")
         print(f"   Saldo em conta: {saldo_atual:.2f}")
-        print("================================================\n")
-
-        
-
-
-        
-        
-
-
-
-
+        print("================================================\n") 
